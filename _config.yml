@@ -11,7 +11,7 @@ email: chris.zeeb@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
  Talking to the Duck: I sure hope he understands what I'm saying.  I sure don't.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://blog.talkingtotheduck.com" # the base hostname & protocol for your site
+url: "http://blog.talkingtotheduck.ca" # the base hostname & protocol for your site
 #twitter_username: jekyllrb
 github_username:  czeeb
 
