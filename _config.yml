@@ -21,6 +21,10 @@ markdown: kramdown
 kramdown:
   input: GFM
 
+# Gems
+gems:
+  - jekyll-sitemap
+
 # Outputting
 permalink: pretty
 
