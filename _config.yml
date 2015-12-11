@@ -25,3 +25,6 @@ permalink: pretty
 
 # Disqus settings
 disqus_site_shortname: talkingtotheduck
+
+# Google Analytics
+googleanalytics_tracking_id: 'UA-71271337-1'
