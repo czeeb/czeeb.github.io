@@ -20,3 +20,6 @@ markdown: kramdown
 
 # Outputting
 permalink: pretty
+
+# Disqus settings
+disqus_site_shortname: talkingtotheduck
