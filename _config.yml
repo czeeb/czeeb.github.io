@@ -17,6 +17,8 @@ github_username:  czeeb
 
 # Build settings
 markdown: kramdown
+kramdown:
+  input: GFM
 
 # Outputting
 permalink: pretty
