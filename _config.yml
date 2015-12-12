@@ -20,10 +20,12 @@ enforce_ssl: blog.talkingtotheduck.ca
 markdown: kramdown
 kramdown:
   input: GFM
+highlighter: pygments
 
 # Gems
 gems:
   - jekyll-sitemap
+  - pygments.rb
 
 # Outputting
 permalink: pretty
@@ -33,3 +35,13 @@ disqus_site_shortname: talkingtotheduck
 
 # Google Analytics
 googleanalytics_tracking_id: 'UA-71271337-1'
+
+# Default values
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Chris Zeeb"
