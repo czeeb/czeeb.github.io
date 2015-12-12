@@ -100,6 +100,7 @@ GEM
     mercenary (0.3.5)
     mini_portile2 (2.0.0)
     minitest (5.8.3)
+    mr_poole (0.8.0)
     multipart-post (2.0.0)
     net-dns (0.8.0)
     nokogiri (1.6.7)
@@ -139,6 +140,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages (= 40)
   json
+  mr_poole
 
 BUNDLED WITH
    1.10.6
