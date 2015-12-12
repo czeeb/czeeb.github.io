@@ -2,6 +2,7 @@
 title: How This Blog Was Set-Up
 layout: post
 author: Chris Zeeb
+excerpt: An explaination of all the steps required to set this blog up at GitHub using Jekyll.
 categories:
   - general
 tags:
