@@ -3,7 +3,7 @@ title: Faster Test Kitchen Using vagrant-cachier Vagrant Plugin
 category: How-To
 layout: post
 author: Chris Zeeb
-excerpt: Reduce Test Kitchen converge with the vagrant-cachier vagrant plugin by caching Chef Omnibus and system packages.
+excerpt: Reduce Test Kitchen converge times with the vagrant-cachier vagrant plugin by caching Chef Omnibus and system packages.
 tags:
   - chef
   - vagrant
