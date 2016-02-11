@@ -20,12 +20,11 @@ enforce_ssl: blog.talkingtotheduck.ca
 markdown: kramdown
 kramdown:
   input: GFM
-highlighter: pygments
+highlighter: rouge
 
 # Gems
 gems:
   - jekyll-sitemap
-  - pygments.rb
 
 # Outputting
 permalink: pretty
