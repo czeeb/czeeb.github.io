@@ -39,7 +39,7 @@ I also read through several of the existing [Amazon Ansible modules](https://git
 
 Documentation for an Ansible module is structured using YAML.  It felt odd and a bit gross to start but overall it's not too bad to work with.  It makes generating the documentation for docs.ansible.com a lot easier on their part, making for a much better overall user experience.
 
-One area I struggled with was proofing my documentation.  Since it is YAML, it's not the easiest to just look at and understannd how it is going to look once merged and on the docs.ansible site.  Building the documentation was not a good experience.
+One area I struggled with was proofing my documentation.  Since it is YAML, it's not the easiest to just look at and understand how it is going to look once merged and on the docs.ansible site.  Building the documentation was not a good experience.
 
 The documentation currently just says:
 
@@ -98,7 +98,7 @@ Once approved (after any requested revisions are made) the module is marked as `
 ## Conclusion
 {:.no_toc}
 
-I wasn't able to duplicate the output from `ansible-validate-modules` that I saw in my [pull request](https://github.com/ansible/ansible-modules-extras/pull/1445), nor could I find anywhere in the [contributing guidelines](https://github.com/ansible/ansible-modules-extras/blob/devel/CONTRIBUTING.md) that mentioned that the RETURN documentation block was required.  Furthremore, there seems to be some issues getting modules peer reviewed.  The pull request I reference was submitted almost 6 weeks before I published this blog post.  I was hoping that it would be reviewed and accepted long before then.  If you are going to write an ansible module, be prepared to show a lot of patience in getting the module accepted.
+I wasn't able to duplicate the output from `ansible-validate-modules` that I saw in my [pull request](https://github.com/ansible/ansible-modules-extras/pull/1445), nor could I find anywhere in the [contributing guidelines](https://github.com/ansible/ansible-modules-extras/blob/devel/CONTRIBUTING.md) that mentioned that the RETURN documentation block was required.  Furthermore, there seems to be some issues getting modules peer reviewed.  The pull request I reference was submitted almost 6 weeks before I published this blog post.  I was hoping that it would be reviewed and accepted long before then.  If you are going to write an ansible module, be prepared to show a lot of patience in getting the module accepted.
 
 [ansible]: http://www.ansible.com
 [chef]: https://www.chef.io
